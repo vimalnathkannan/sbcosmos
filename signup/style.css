@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px solid black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-head {
+    border: 1px solid black;
+    width: 700px;
+    height: 500px;
+    display: flex;
+    box-shadow: 2px 3px 30px grey;
+}
+
+.logo-con {
+    border: 1px solid black;
+    width: 250px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00e3b1;
+}
+
+.sub-logo-con {
+    border: 1px solid black;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sub-logo-con>img {
+    width: 75px;
+    margin-bottom: 10px;
+}
+
+.back-color {
+    position: absolute;
+    height: 100vh;
+    width: 42.8%;
+    border: 1px solid black;
+    z-index: -1;
+    background-color: #00e3b1;
+}
+
+.form-con {
+    border: 1px solid black;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+
+.needhelptext {
+    position: absolute;
+    margin-right: 20px;
+    margin-top: 20px;
+    /* padding-bottom: 100%;
+    padding-left: 70%; */
+}
+
+.login-form {
+    border: 1px solid black;
+    width: 350px;
+}
+
+.login-form>h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group>label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.form-group>input {
+    width: 100%;
+    padding: 7px;
+    outline: none;
+}
+
+.forgetpassword {
+    display: block;
+    text-align: right;
+}
+
+.loginbtn {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    background-color: #00e3b1;
+    font-weight: 600;
+}

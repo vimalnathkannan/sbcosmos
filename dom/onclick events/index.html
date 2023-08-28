@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onclick Event</title>
+    <style>
+    #box{
+        height: 200px;
+        width: 200px;
+        background-color: blue;
+        box-shadow: 1px 1px 10px 1px black;
+        margin-top: 150px;
+    }
+    img{
+        height: 100%;
+        width: 100%;
+    }
+    #box,img{
+        border-radius: 20px;
+    }
+    </style>
+</head>
+<body>
+    <center>
+    <div id="box">
+        <img src="img1.jpg">
+    </div>
+    <br>
+
+    <button onclick="changeimage('img1.jpg')">image-1</button>
+    <button onclick="changeimage('img2.jpg')">image-2</button>
+    <button onclick="changeimage('img3.jpg')">image-3</button>
+</center>
+
+    <!-- <button onclick="changecolor('red')">red</button>
+    <button onclick="changecolor('green')">green</button>
+    <button onclick="changecolor('orange')">orange</button> -->
+
+    <script src="main.js"></script>
+</body>
+</html>

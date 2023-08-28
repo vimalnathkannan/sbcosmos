@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #58ffa3; */
+}
+.form1{
+    width: 100%;
+    max-width: 650px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 28px;
+    margin: 0;
+    border-radius: 10px;
+    box-shadow: inset -3px 3px 3px white;
+}
+h1{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 6px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    border-bottom: solid 1px white;
+}
+.form2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.form3:nth-child(2n){
+    justify-content: end;
+}
+.form3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+.form3 label{
+    width: 95%;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+.form3 input{
+    height: 40px;
+    width: 95%;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid gray;
+    padding: 0 10px;
+}
+.gender2{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    border-bottom: 1px solid white;
+}
+.gender3{
+    margin: 15px 0;
+    color: white;
+}
+.gender3 label{
+    padding: 0 20px 0 5px;
+}
+
+.gender3 label,.gender3 input,.btn{
+cursor: pointer;
+}
+.btn{
+    margin-top: 40px;
+}
+.btn input{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    /* color: rgb(209, 209, 209);
+    background: rgba(63, 114, 76, 0.7); */
+    background-color: #58ffa3;
+
+}

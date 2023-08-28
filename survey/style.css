@@ -1,0 +1,139 @@
+body{
+   background-color: #5bf5de;
+   font-family: sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: inset -2px 2px 2px white;
+}
+h3{
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+}
+.line{
+    height: 2px;
+    width: 100%;
+    background-color: #5bf5de;
+    margin-bottom: 5px;
+}
+.sur-form{
+    text-align: center;
+    margin-top: 30px;
+}
+.row{
+    display: block;
+    padding-bottom: 20px;
+}
+.label-tp{
+    display: inline-block;
+    width: 44%;
+    text-align: right;
+    vertical-align: top;
+}
+.input-tp{
+    display: inline-block;
+    width: 54%;
+    text-align: left;
+}
+.select-tp{
+    display: inline-block;
+    width: 54%;
+    text-align: left;
+}
+
+.slt-bx{
+    padding: 5px 0px;
+    outline: none;
+}
+
+.btn button{
+    display: inline-block;
+    height: 30px;
+    width: 10%;
+    background-color: #5bf5de;
+    outline: none;
+    border: none;
+    border:1px solid grey;
+    border-radius: 5px;
+    /* color: #fff; */
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container{
+    height: 800px;
+    width: 1000px;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+h3{
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+}
+.line{
+    height: 2px;
+    width: 950px;
+    background-color: #5bf5de;
+    margin-bottom: 10px;
+}
+form{
+    width: 900px;
+    margin-left: 20px;
+}
+.sign{
+ display: flex;
+ justify-content: center;
+ /* width: 500px; */
+/* }
+.sign label{
+    font-size: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.sign input{
+    padding: 3px;
+    margin-bottom: 15px;
+    width: 300px;
+    border: none;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.details{
+    display: block;
+    justify-content: center;
+} */ 
